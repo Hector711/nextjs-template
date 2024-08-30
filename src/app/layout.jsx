@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 
 // INIT
 import "@/css/reset/reset.scss";
+import "@/css/globals.scss";
 
 const inter = Inter({ subsets: ["latin"] });
 
