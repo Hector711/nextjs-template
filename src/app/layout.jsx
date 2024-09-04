@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-
+import Navbar from "@/components/Navbar";
 // INIT
 import "@/css/reset/reset.scss";
 import "@/css/globals.scss";
@@ -13,7 +13,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang='en'>
+      <Navbar />
       <body className={inter.className}>{children}</body>
     </html>
   );
